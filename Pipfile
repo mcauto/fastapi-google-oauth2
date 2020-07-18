@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+# 19.10b0 설치 호환 버그로 version fixed
+black = "==19.3b0"
+pylint = "*"
+
+[packages]
+# web framework
+fastapi = "*"
+# asgi
+uvicorn = "*"
+# auth
+pyjwt = "*"
+six = "*"
+python-jose = "*"
+
+[requires]
+python_version = "3.8"
