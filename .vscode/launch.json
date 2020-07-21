@@ -16,6 +16,8 @@
                 "--port",
                 "5000"
             ],
+            "console": "integratedTerminal",
+            "subProcess": true,
         }
     ]
 }
